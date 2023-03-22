@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>掲示板</title>
+  </head>
+  <body>
+    <h1>暇人掲示板</h1>
+    <form>
+      <label for="name">名前：</label>
+      <input type="text" id="name" />
+      <br />
+      <label for="message">メッセージ：</label>
+      <textarea id="message"></textarea>
+      <br />
+      <button type="button" onclick="addMessage()">投稿</button>
+    </form>
+    <ul id="messageList"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
